@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a website designed to help underground artists market their music">
+        <meta name="author" content="Joey Cartwright">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music and Video Uploads</title>
+
+        <!-- I want to have a black background, orange text, white text, and blue links -->
+
+        <style>
+            body {background-image: url('images/grainy-texture-2.jpg'); 
+                  background-color: #181818;
+                  width: 80%;
+                  margin: 0 auto;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  nav-down: 30px;
+                  padding-top: 100px;
+                 }
+            title {color: rgb(215, 0, 0)}
+            h1 {color: rgb(215, 0, 0)}
+            h2 {color: rgb(215, 0, 0)}
+            h3 {color: rgb(215, 0, 0)}
+            h5 {color: rgb(215, 0, 0)}
+            p {color: white}
+            a {color: lightskyblue}
+            ul {color: white}
+            address {color: white}
+            hr {color: rgb(215, 0, 0);
+                flex-direction: column-reverse;
+                align-self: stretch;
+                width: 400px;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            form {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            table {
+                width: 50%;
+                color: white;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            th, td {
+                border: 2px solid darkred;
+            }
+            .white-rectangle {
+                display: inline-block; 
+                width: 300px;
+                height: 40px;
+                background-color: darkgray;
+                border: 1px solid black; 
+                margin-right: 5px; 
+            }
+
+            .white-square {
+                display: inline-block;
+                width: 500px;
+                height: 400px;
+                background-color: lightgray;
+                border: 1px solid black; 
+                margin-right: 5px;
+            }
+            video {
+                display: inline-block;
+                width: 300px;
+                height: 200px;
+                border: 1px solid black; 
+                margin-right: 5px;
+            }
+            span {
+                display: inline-block;
+                width: 300px;
+                height: 200px;
+                border: 1px solid black; 
+                background-color: darkgray;
+                margin-right: 5px;
+            }
+            .video-music p {
+                display: flex;
+                justify-content: space-around; 
+                align-items: center; 
+            }
+
+            .video-music span {
+                margin: 0 10px; 
+            }       
+
+        </style>
+
+    </head> 
+    <body>
+        <div id="music-1" class="audio-music">
+            <h1>Clip of Songs</h1>
+            <p>
+                <span class="white-rectangle">
+                    <audio preload controls>
+                    <source src="audio/oh-well-demo.wav" type="audio/wav" />
+                </span>
+                <span class="white-rectangle">
+                    <audio preload controls>
+                    <source src="audio/red-roses-demo.wav" type="audio/wav" />
+                </span>
+              </p>
+        </div>
+        <div id="video-1" class="video-music">
+            <h1>Clip of Videos</h1>
+            <p>
+                <span>
+                    <video src="video/break-live.mp4" poster="./images/break-live.PNG" width="500" height="400" preload controls>
+                    </video>
+                </span>
+                <span>
+                    <video src="video/star-shopping-live.mp4" poster="./images/star-shopping-live.PNG" width="500" height="400" preload controls>
+                    </video>
+                </span>
+              </p>
+        </div>
+        <h2>YouTube Iframes</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WhRlZoxFN14" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p>
+            <a href="index.html">BACK TO HOME</a>
+        </p>
+    </body>
+</html>

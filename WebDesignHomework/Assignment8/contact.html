@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a website designed to help underground artists market their music">
+        <meta name="author" content="Joey Cartwright">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Song Marketing for Underground Musicians</title>
+
+        <!-- I want to have a black background, orange text, white text, and blue links -->
+
+        <style>
+            body {background-image: url('images/grainy-texture-2.jpg'); 
+                  background-color: #181818;
+                  width: 80%;
+                  margin: 0 auto;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  nav-down: 30px;
+                  padding-top: 100px;
+                 }
+            title {color: rgb(215, 0, 0)}
+            h1 {color: rgb(215, 0, 0)}
+            h2 {color: rgb(215, 0, 0)}
+            h3 {color: rgb(215, 0, 0)}
+            p {color: rgb(215, 0, 0)}
+            a {color: lightskyblue}
+            ul {color: white}
+            address {color: white}
+            hr {color: darkred;
+                flex-direction: column-reverse;
+                align-self: stretch;
+                width: 400px;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            form {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+        </style>
+
+    </head> 
+    <body>
+        <h1>Create Your Account</h1>
+        <form  action="joeycartwright.jc@gmail.com?subject=Suggested%20Activity" method="post" enctype="text/plain" id="create-account-form" class="basic-forms">
+            <p>
+                ARTIST_NAME:
+                <input type="text" name="artistname" id="artistname_input">
+            </p>
+            <p>
+                USER_NAME: 
+                <input type="text" name="username" id="username_input">
+            </p>
+            <p>
+                PASSWORD:
+                <input type="text" name="password" id="user_password">
+            </p>
+            <p>
+                CONFIRM_PASSWORD:
+                <input type="text" name="password" id="user_password">
+            </p>
+            <p>
+                BIRTH_DATE:
+                <input type="date" name="userbirthdate" id="user_birth_date">
+            </p>
+            <input type="submit" name="createaccount" value="Create Account">
+            <hr>
+            <a href="index.html">BACK TO HOME</a>
+        </form>
+    </body>
+</html>
