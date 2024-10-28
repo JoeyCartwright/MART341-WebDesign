@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a website designed to help people write songs">
+        <meta name="author" content="Joey Cartwright">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How to Write A Song From Scratch</title>
+
+        <!-- I want to have a black background, orange text, white text, and blue links -->
+
+        <style>
+            body {background-color: grey;
+                  width: 80%;
+                  margin: 0 auto;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  nav-down: 30px;
+                  padding-top: 100px;
+                 }
+            title {color: whitesmoke}
+            h1 {color: whitesmoke}
+            h2 {color: whitesmoke}
+            h3 {color: whitesmoke}
+            p {color: whitesmoke}
+            a {color: lightskyblue}
+            ul {color: whitesmoke}
+            address {color: whitesmoke}
+            hr {color: whitesmoke;
+                flex-direction: column-reverse;
+                align-self: stretch;
+                width: 400px;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            form {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            label {
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+        </style>
+
+    </head> 
+    <body>
+        <h1>Share Your Songs!</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="fileUpload">Choose a File to Upload:</label>
+            <input type="file" id="fileUpload" name="fileUpload">
+        </form>
+        <form  action="joeycartwright.jc@gmail.com?subject=Suggested%20Activity" method="post" enctype="text/plain" id="create-account-form" class="basic-forms">
+            <p>
+                Song_Name:
+                <input type="text" name="artistname" id="artistname_input">
+            </p>
+            <p>
+                Song_Description: 
+                <input type="text" name="username" id="username_input">
+            </p>
+            <p>
+                Additional_comments:
+                <input type="text" name="password" id="user_password">
+            </p>
+            <input type="submit" name="createaccount" value="Submit Song">
+            <hr>
+        </form>
+        <div>
+            <div id="music-1" class="audio-music">
+                <h1>Posted Songs</h1>
+                <p>
+                    <span class="white-rectangle">
+                        <audio preload controls>
+                        <source src="audio/oh-well-demo.wav" type="audio/wav" />
+                    </span>
+                </p>
+            </div>
+        </div>
+        <a href="index.html">BACK TO HOME</a>
+    </body>
+</html>
