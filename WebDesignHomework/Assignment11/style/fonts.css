@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/custom-font.woff2') format('woff2'),
+         url('/fonts/custom-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1:hover {
+   font-size: 3em; 
+   transition: font-size 0.3s ease;
+  }
