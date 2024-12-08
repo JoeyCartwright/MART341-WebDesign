@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size-adjust: .6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    width: 25%;
+    float: left;
+}
+
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 10pt;
+    color: #fff;
+    background-color: #ff7e5f;
+    line-height: 2.1em;
+}
+
+.menu-item:hover {
+    background-color: #ff7e5f;
+    color: #333;
+}
+
+.custom-header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 0;       
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px rgba(255, 126, 95, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto; 
+    z-index: 1030; 
+}
+
+.display-inline {
+    display: inline;
+}
+.display-inline-block {
+    display: inline-block;
+}
+
+#heading-1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', Trebuchet MS, Verdana, sans-serif;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    position: static;
+    color: white; 
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    border-style: ridge;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 126, 95, 0.6);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.highlight-two {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white; 
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    padding: 5px 20px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 126, 95, 0.6);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.highlight-three {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white; 
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    background-image: url('../images/grainy-texture-2.jpg'); 
+    background-color: #181818; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    nav-down: 30px;
+    padding-top: 100px;
+}
+
+
+
+p {
+    color: whitesmoke;
+    line-height: 2;
+} 
+
+a {
+    color: #007bff;
+}
+
+title {
+    color: rgb(215, 0, 0);
+}
+            
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(215, 0, 0);
+    margin-top: 60px;
+}
+            
+h2 {
+    color: rgb(215, 0, 0);
+}
+            
+h3 {
+    color: rgb(215, 0, 0);
+}
+            
+p {
+    color: white;
+    text-align: center;
+}
+            
+ul {
+    color: white;
+}
+            
+address {
+    color: white;
+}
+            
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+            
+hr {
+    width: 400px; 
+    border: 1px solid rgb(215, 0, 0);
+    margin: 20px auto; 
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table {
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+th, td {
+    border: 2px solid darkred;
+}
+.white-rectangle {
+    display: inline-block; 
+    width: 300px;
+    height: 40px;
+    background-color: darkgray;
+    border: 1px solid black; 
+    margin-right: 5px; 
+}
+
+.white-square {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-color: lightgray;
+    border: 1px solid black; 
+    margin-right: 5px;
+}
+video {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black; 
+    margin-right: 5px;
+}
+span {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black; 
+    background-color: darkgray;
+    margin-right: 5px;
+}
+.video-music p {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.video-music span {
+    margin: 0 10px; 
+}    
+
+table {
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bold {
+    font-family: Impact;
+    font-weight: bolder;
+    font-size-adjust: .8;
+ }
